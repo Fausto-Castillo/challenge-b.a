@@ -45,14 +45,14 @@ To run the application locally, follow these steps:
 
 ## Usage
 
-1.  **Histogram Visualization:** The histogram shows the total population and the number of foreign-born citizens for each available year.
+1.  **Histogram Visualization:** The histogram uses a dual Y-axis to display the total population and the number of foreign-born citizens for each available year, while also showing the percentage of foreign-born citizens relative to the total population on a separate axis.
 2.  **Year Filter:** Use the buttons below the histogram to filter and visualize data for one or more years.
 3.  **State Details Table:** Clicking on a bar in the histogram displays a table with state-level information for the selected year.
-4.  **State Filter:** Use the autocomplete by state to  filter the histogram and the table by a specific state.
+4.  **State Filter:** Use the autocomplete by state to  filter the histogram by a specific state.
 
 ## Author
 
-Fausto Castillo
+[Fausto Castillo](https://www.linkedin.com/in/fausto-castillo/)
 
 ## Demo
 [Live Demo](https://boostup-challenge.web.app/)
