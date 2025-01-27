@@ -21,7 +21,7 @@ interface DrillDownTableProps {
   stateCode?: string;
 }
 
-const DrillDownTable: React.FC<DrillDownTableProps> = ({ year, stateCode }) => {
+const DrillDownTable: React.FC<DrillDownTableProps> = ({ year }) => {
   const [stateData, setStateData] = useState<DataUSADataItem[]>([]);
   const [isLoading, setIsLoading] = useState(true);
   const skeletonRows = Array.from({ length: 10 });
@@ -47,7 +47,7 @@ const DrillDownTable: React.FC<DrillDownTableProps> = ({ year, stateCode }) => {
     };
 
     fetchData();
-  }, [year, stateCode]);
+  }, [year]);
 
   return (
     <Box bgcolor="white" className={styles.tableContainer}>

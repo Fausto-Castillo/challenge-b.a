@@ -87,7 +87,7 @@ const App: React.FC = () => {
         </Grid>
         {selectedYear &&
           <Grid size={{ xs: 12, md: 6 }} >
-            <DrillDownTable year={selectedYear} stateCode={selectedState} />
+            <DrillDownTable year={selectedYear} />
           </Grid>
         }
       </Grid>
