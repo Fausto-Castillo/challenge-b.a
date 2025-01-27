@@ -25,8 +25,8 @@ To run the application locally, follow these steps:
 1.  Clone the repository:
 
     ```bash
-    git clone <your-repo-url>
-    cd my-demographic-app
+    git clone git@github.com:Fausto-Castillo/challenge-b.a.git
+    cd challenge-b.a
     ```
 
 2.  Install the dependencies:
