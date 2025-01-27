@@ -1,0 +1,41 @@
+.tableContainer {
+  padding: 1rem;
+  border-radius: 4px;
+}
+
+.tableScroll {
+  max-height: 400px;
+  height: 400px;
+  overflow-y: auto;
+}
+
+.tableCell {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.tableCellHead {
+  border: 1px solid #ddd;
+  text-align: left;
+  color: white !important;
+  background-color: rgb(52, 76, 111) !important;
+  font-weight: bold;
+}
+
+.tableRowOdd {
+  background-color: #f9f9f9;
+}
+
+.skeletonContainer {
+  width: 100%;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.skeletonRow {
+  margin-bottom: 5px;
+}
+
+.tableTitle {
+  font-weight: bold;
+}

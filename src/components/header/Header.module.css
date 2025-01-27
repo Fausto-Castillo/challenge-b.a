@@ -1,0 +1,11 @@
+.headerContainer {
+    text-align: left;
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 10px 20px;
+}
+
+.logo {
+    width: 100px;
+    margin-bottom: 10px;
+}
